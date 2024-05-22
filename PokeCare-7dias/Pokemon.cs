@@ -31,7 +31,11 @@ public class Pokemon
     {
         Console.WriteLine("=-=-=-=-=-=-=-=-=-=");
         Console.WriteLine($"Nome: {Nome}\nAltura: {Altura /10}m\n" +
-            $"Peso: {Peso/10}kg\nHabilidades: {Habilidades}");
+            $"Peso: {Peso/10}kg");
+        string habilidadesFormatadas = string.Join("\n", Habilidades);
+        Console.WriteLine($"Habilidades: {habilidadesFormatadas}");
+        Console.WriteLine("=-=-=-=-=-=-=-=-=-=");
+
     }
     public static async Task ExibirTodosPokemons()
     {
