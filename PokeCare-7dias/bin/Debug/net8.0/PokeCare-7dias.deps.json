@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PokeCare-7dias/1.0.0": {
+        "runtime": {
+          "PokeCare-7dias.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PokeCare-7dias/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

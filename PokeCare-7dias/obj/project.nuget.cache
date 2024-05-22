@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0VwlDlfJkFBx/OH5vX1No+9NNpuVgtV7MTkPefx5kkaAYuVmSIwt28DLlJU1/Dr3BsWh8oUFs53XT5RXSLOi4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare-7dias\\PokeCare-7dias.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Windows-10Pro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
