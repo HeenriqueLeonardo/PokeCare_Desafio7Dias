@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare-7dias\\PokeCare-7dias.csproj": {}
+    "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare_Desafio7Dias\\PokeCare-7dias\\PokeCare-7dias.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare-7dias\\PokeCare-7dias.csproj": {
+    "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare_Desafio7Dias\\PokeCare-7dias\\PokeCare-7dias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare-7dias\\PokeCare-7dias.csproj",
+        "projectUniqueName": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare_Desafio7Dias\\PokeCare-7dias\\PokeCare-7dias.csproj",
         "projectName": "PokeCare-7dias",
-        "projectPath": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare-7dias\\PokeCare-7dias.csproj",
+        "projectPath": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare_Desafio7Dias\\PokeCare-7dias\\PokeCare-7dias.csproj",
         "packagesPath": "C:\\Users\\Windows-10Pro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare-7dias\\obj\\",
+        "outputPath": "C:\\Users\\Windows-10Pro\\Desktop\\Estudos de C#\\PokeCare-7dias\\PokeCare_Desafio7Dias\\PokeCare-7dias\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows-10Pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
