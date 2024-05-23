@@ -1,6 +1,6 @@
-﻿namespace PokeCare_7dias;
+﻿namespace PokeCare_7dias.Modelos;
 using Newtonsoft.Json.Linq;
-
+using PokeCare_7dias.PokecareUtil;
 
 public class Pokemon
 {
@@ -9,7 +9,7 @@ public class Pokemon
 
     public string Nome { get; set; }
     public float Altura { get; set; }
-    public int Peso{ get; set; }
+    public int Peso { get; set; }
     public string[] Habilidades { get; set; }
 
     public static Pokemon FromJson(string jsonData)
@@ -30,8 +30,8 @@ public class Pokemon
     public void ExibirFichaPokemon()
     {
         Console.WriteLine("=-=-=-=-=-=-=-=-=-=");
-        Console.WriteLine($"Nome: {Nome}\nAltura: {Altura /10}m\n" +
-            $"Peso: {Peso/10}kg");
+        Console.WriteLine($"Nome: {Nome}\nAltura: {Altura / 10}m\n" +
+            $"Peso: {Peso / 10}kg");
         string habilidadesFormatadas = string.Join("\n", Habilidades);
         Console.WriteLine($"Habilidades: {habilidadesFormatadas}");
         Console.WriteLine("=-=-=-=-=-=-=-=-=-=");
@@ -39,15 +39,15 @@ public class Pokemon
     }
     public static async Task ExibirTodosPokemons()
     {
-        foreach (var nomePokemon  in listaDePokemons)
+        foreach (var nomePokemon in listaDePokemons)
         {
             Pokemon pokemon = await PokemonService.GetPokemonAsync(nomePokemon);
             pokemon.ExibirFichaPokemon();
             Console.WriteLine();
         }
-        
+
     }
 
 }
-    
+
 

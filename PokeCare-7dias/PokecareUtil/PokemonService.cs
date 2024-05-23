@@ -1,6 +1,7 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-namespace PokeCare_7dias;
+using PokeCare_7dias.Modelos;
+namespace PokeCare_7dias.PokecareUtil;
 
 internal class PokemonService
 {
