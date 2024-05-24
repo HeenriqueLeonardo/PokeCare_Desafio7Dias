@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeCare-7dias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f780ca03c4238c57e6236c4ec75a5358cefe78d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6033ebc3a252403324a1f592a701dad781ec01e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeCare-7dias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeCare-7dias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

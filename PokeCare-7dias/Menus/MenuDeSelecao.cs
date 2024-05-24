@@ -1,10 +1,11 @@
-﻿using System.Globalization;
+﻿using PokeCare_7dias.Modelos;
+using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 namespace PokeCare_7dias.Menus;
 
-public class MenuDeSelecao
+public class MenuDeSelecao:Jogador
 {
-    public async Task ExibirMenuAsync()
+    public async Task ExibirMenuPrincipal()
     {
         bool executando = true;
         while (executando)
@@ -20,10 +21,10 @@ public class MenuDeSelecao
             switch (opcao)
             {
                 case "1":
-                    await AdotarPokemonAsync();
+                    exibirMenuAdotarPokemon();
                     break;
                 case "2":
-                    Jogador.exibirPokemonsAdotados();
+                    exibirPokemonsAdotados();
                     break;
                 case "3":
                     executando = false;

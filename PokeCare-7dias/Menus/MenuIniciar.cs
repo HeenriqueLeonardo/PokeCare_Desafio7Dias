@@ -20,8 +20,9 @@ internal class MenuIniciar
         Console.WriteLine("\n\n\n");
     }
 
-    public void CadastrarJogador()
+    public void CadastrarJogador(string nomeJogador)
     {
+        Jogador jogador = new Jogador();
         Console.Write("Qual o seu nome? :");
         string nome = Console.ReadLine();
         jogador.Nome = nome;

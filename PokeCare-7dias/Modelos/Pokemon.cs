@@ -42,8 +42,7 @@ public class Pokemon
         foreach (var nomePokemon in listaDePokemons)
         {
             Pokemon pokemon = await PokemonService.GetPokemonAsync(nomePokemon);
-            pokemon.ExibirFichaPokemon();
-            Console.WriteLine();
+            Console.WriteLine($"{nomePokemon}");
         }
 
     }
