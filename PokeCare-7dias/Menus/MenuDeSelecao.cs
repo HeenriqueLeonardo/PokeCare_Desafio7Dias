@@ -3,9 +3,16 @@ using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 namespace PokeCare_7dias.Menus;
 
-public class MenuDeSelecao:Jogador
+public class MenuDeSelecao : Jogador
 {
-    public async Task ExibirMenuPrincipal()
+    public Jogador jogador;
+
+    public MenuDeSelecao(Jogador jogador)
+    {
+        this.jogador = jogador;
+    }
+
+    public static async Task ExibirMenuPrincipal(Jogador jogador)
     {
         bool executando = true;
         while (executando)
@@ -21,10 +28,10 @@ public class MenuDeSelecao:Jogador
             switch (opcao)
             {
                 case "1":
-                    exibirMenuAdotarPokemon();
+                    MenuAdotarPokemon.ExibirMenuAdotarPokemon(jogador);
                     break;
                 case "2":
-                    exibirPokemonsAdotados();
+                    jogador.exibirPokemonsAdotados();
                     break;
                 case "3":
                     executando = false;
@@ -37,3 +44,5 @@ public class MenuDeSelecao:Jogador
         }
     }
 }
+
+

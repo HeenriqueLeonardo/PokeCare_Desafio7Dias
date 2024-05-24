@@ -12,7 +12,7 @@ internal class MenuAdotarPokemon
         this.jogador = jogador;
     }
 
-    public async Task ExibirMenuAdotarPokemon()
+    public static async Task ExibirMenuAdotarPokemon(Jogador jogador)
     {
         bool adotando = true;
         while (adotando)
